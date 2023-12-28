@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "500165033229",
+    "firebase_url": "https://crudcient-default-rtdb.firebaseio.com",
+    "project_id": "crudcient",
+    "storage_bucket": "crudcient.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500165033229:android:4c56fd18a634e221eec444",
+        "android_client_info": {
+          "package_name": "com.example.crudcient"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DtBPRb6pdrhxx2x-FqGaijEqFN2Z_2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500165033229:android:b065d64bb8c1208aeec444",
+        "android_client_info": {
+          "package_name": "com.example.curdadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DtBPRb6pdrhxx2x-FqGaijEqFN2Z_2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

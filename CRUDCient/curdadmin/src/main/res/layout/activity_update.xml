@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/updatebkg"
+    tools:context=".UpdateActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/referencePhone"
+            android:background="@drawable/lavender_border"
+            android:hint="Enter phone number"
+            android:padding="16dp"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/Lavender"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/updateName"
+            android:background="@drawable/lavender_border"
+            android:hint="Enter Name"
+            android:padding="16dp"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/Lavender"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/updateOperator"
+                android:background="@drawable/lavender_border"
+                android:hint="Enter operator"
+                android:padding="16dp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/Lavender"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/updateLocation"
+                android:background="@drawable/lavender_border"
+                android:hint="Enter location"
+                android:padding="16dp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/Lavender"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Update"
+            android:id="@+id/updateButton"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/Lavender"
+            app:cornerRadius = "20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
